@@ -138,7 +138,7 @@ btn.addEventListener("click", () => {
 // number counter
 let number_count = 0;
 setInterval(() => {
-  if (number_count == 2) {
+  if (number_count == 15) {
     index++;
     if (index < question.length) {
       getQuestion();
